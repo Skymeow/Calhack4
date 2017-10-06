@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FFDDDB391D389F4E2F8F1B9 /* Pods_Calhack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 500C4EAFE845E3C5A78FA662 /* Pods_Calhack.framework */; };
+		F949BE681F87D99600C254F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE671F87D99600C254F1 /* AppDelegate.swift */; };
+		F949BE6A1F87D99600C254F1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE691F87D99600C254F1 /* LoginViewController.swift */; };
+		F949BE6D1F87D99600C254F1 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F949BE6B1F87D99600C254F1 /* Login.storyboard */; };
+		F949BE6F1F87D99600C254F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F949BE6E1F87D99600C254F1 /* Assets.xcassets */; };
+		F949BE721F87D99600C254F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F949BE701F87D99600C254F1 /* LaunchScreen.storyboard */; };
+		F949BE7B1F87E0D000C254F1 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE7A1F87E0D000C254F1 /* CreateUsernameViewController.swift */; };
+		F949BE7D1F87E0E900C254F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE7C1F87E0E900C254F1 /* User.swift */; };
+		F949BE7F1F87E0FD00C254F1 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE7E1F87E0FD00C254F1 /* UserService.swift */; };
+		F949BE811F87E16F00C254F1 /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE801F87E16F00C254F1 /* Storyboard+Utility.swift */; };
+		F949BE871F87EE8900C254F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F949BE861F87EE8900C254F1 /* Constants.swift */; };
+		F9B03AEC1F881362001CE78A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B03AEB1F881362001CE78A /* Main.storyboard */; };
+		F9B03AED1F881C47001CE78A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F949BE791F87DF7F00C254F1 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		500C4EAFE845E3C5A78FA662 /* Pods_Calhack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calhack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DD329E9154A707B64040D3 /* Pods-Calhack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calhack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calhack/Pods-Calhack.debug.xcconfig"; sourceTree = "<group>"; };
+		939B54C95684D372527AED7A /* Pods-Calhack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calhack.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calhack/Pods-Calhack.release.xcconfig"; sourceTree = "<group>"; };
+		F949BE641F87D99600C254F1 /* Calhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F949BE671F87D99600C254F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F949BE691F87D99600C254F1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F949BE6C1F87D99600C254F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		F949BE6E1F87D99600C254F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F949BE711F87D99600C254F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F949BE731F87D99600C254F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F949BE791F87DF7F00C254F1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F949BE7A1F87E0D000C254F1 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		F949BE7C1F87E0E900C254F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F949BE7E1F87E0FD00C254F1 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		F949BE801F87E16F00C254F1 /* Storyboard+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Utility.swift"; sourceTree = "<group>"; };
+		F949BE861F87EE8900C254F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F9B03AEB1F881362001CE78A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F949BE611F87D99600C254F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFDDDB391D389F4E2F8F1B9 /* Pods_Calhack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C9E8759E033AEBEE64E153 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				500C4EAFE845E3C5A78FA662 /* Pods_Calhack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA193CF50B4DBD9B780EE596 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69DD329E9154A707B64040D3 /* Pods-Calhack.debug.xcconfig */,
+				939B54C95684D372527AED7A /* Pods-Calhack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F949BE5B1F87D99600C254F1 = {
+			isa = PBXGroup;
+			children = (
+				F949BE661F87D99600C254F1 /* Calhack */,
+				F949BE651F87D99600C254F1 /* Products */,
+				CA193CF50B4DBD9B780EE596 /* Pods */,
+				03C9E8759E033AEBEE64E153 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F949BE651F87D99600C254F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F949BE641F87D99600C254F1 /* Calhack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F949BE661F87D99600C254F1 /* Calhack */ = {
+			isa = PBXGroup;
+			children = (
+				F949BE671F87D99600C254F1 /* AppDelegate.swift */,
+				F949BE861F87EE8900C254F1 /* Constants.swift */,
+				F949BE831F87E1AD00C254F1 /* Controllers */,
+				F949BE841F87E1C000C254F1 /* Model */,
+				F949BE851F87E1CB00C254F1 /* Services */,
+				F949BE821F87E18900C254F1 /* Extensions */,
+				F949BE6B1F87D99600C254F1 /* Login.storyboard */,
+				F9B03AEB1F881362001CE78A /* Main.storyboard */,
+				F949BE701F87D99600C254F1 /* LaunchScreen.storyboard */,
+				F949BE6E1F87D99600C254F1 /* Assets.xcassets */,
+				F949BE791F87DF7F00C254F1 /* GoogleService-Info.plist */,
+				F949BE731F87D99600C254F1 /* Info.plist */,
+			);
+			path = Calhack;
+			sourceTree = "<group>";
+		};
+		F949BE821F87E18900C254F1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F949BE801F87E16F00C254F1 /* Storyboard+Utility.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F949BE831F87E1AD00C254F1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F949BE691F87D99600C254F1 /* LoginViewController.swift */,
+				F949BE7A1F87E0D000C254F1 /* CreateUsernameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F949BE841F87E1C000C254F1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F949BE7C1F87E0E900C254F1 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F949BE851F87E1CB00C254F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F949BE7E1F87E0FD00C254F1 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F949BE631F87D99600C254F1 /* Calhack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F949BE761F87D99600C254F1 /* Build configuration list for PBXNativeTarget "Calhack" */;
+			buildPhases = (
+				C9EB725AFA3756EF3741F5E6 /* [CP] Check Pods Manifest.lock */,
+				F949BE601F87D99600C254F1 /* Sources */,
+				F949BE611F87D99600C254F1 /* Frameworks */,
+				F949BE621F87D99600C254F1 /* Resources */,
+				5C5CCABEB016269FFBF963AA /* [CP] Embed Pods Frameworks */,
+				11A1FF51EAF0E3A91ADCC07A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calhack;
+			productName = Calhack;
+			productReference = F949BE641F87D99600C254F1 /* Calhack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F949BE5C1F87D99600C254F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sky Xu";
+				TargetAttributes = {
+					F949BE631F87D99600C254F1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F949BE5F1F87D99600C254F1 /* Build configuration list for PBXProject "Calhack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F949BE5B1F87D99600C254F1;
+			productRefGroup = F949BE651F87D99600C254F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F949BE631F87D99600C254F1 /* Calhack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F949BE621F87D99600C254F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F949BE721F87D99600C254F1 /* LaunchScreen.storyboard in Resources */,
+				F949BE6F1F87D99600C254F1 /* Assets.xcassets in Resources */,
+				F9B03AED1F881C47001CE78A /* GoogleService-Info.plist in Resources */,
+				F949BE6D1F87D99600C254F1 /* Login.storyboard in Resources */,
+				F9B03AEC1F881362001CE78A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11A1FF51EAF0E3A91ADCC07A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Calhack/Pods-Calhack-resources.sh",
+				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calhack/Pods-Calhack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5CCABEB016269FFBF963AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Calhack/Pods-Calhack-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calhack/Pods-Calhack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9EB725AFA3756EF3741F5E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calhack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F949BE601F87D99600C254F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F949BE7D1F87E0E900C254F1 /* User.swift in Sources */,
+				F949BE7F1F87E0FD00C254F1 /* UserService.swift in Sources */,
+				F949BE6A1F87D99600C254F1 /* LoginViewController.swift in Sources */,
+				F949BE811F87E16F00C254F1 /* Storyboard+Utility.swift in Sources */,
+				F949BE871F87EE8900C254F1 /* Constants.swift in Sources */,
+				F949BE681F87D99600C254F1 /* AppDelegate.swift in Sources */,
+				F949BE7B1F87E0D000C254F1 /* CreateUsernameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F949BE6B1F87D99600C254F1 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F949BE6C1F87D99600C254F1 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		F949BE701F87D99600C254F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F949BE711F87D99600C254F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F949BE741F87D99600C254F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F949BE751F87D99600C254F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F949BE771F87D99600C254F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69DD329E9154A707B64040D3 /* Pods-Calhack.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CL75PM5U8;
+				INFOPLIST_FILE = Calhack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.Calhack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F949BE781F87D99600C254F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 939B54C95684D372527AED7A /* Pods-Calhack.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2CL75PM5U8;
+				INFOPLIST_FILE = Calhack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sky.Calhack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F949BE5F1F87D99600C254F1 /* Build configuration list for PBXProject "Calhack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F949BE741F87D99600C254F1 /* Debug */,
+				F949BE751F87D99600C254F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F949BE761F87D99600C254F1 /* Build configuration list for PBXNativeTarget "Calhack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F949BE771F87D99600C254F1 /* Debug */,
+				F949BE781F87D99600C254F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F949BE5C1F87D99600C254F1 /* Project object */;
+}
