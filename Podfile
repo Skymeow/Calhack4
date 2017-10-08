@@ -8,5 +8,7 @@ target 'Calhack' do
   pod 'Firebase/Auth'
   pod 'FirebaseUI/Auth'
   pod 'Firebase/Database'
+  pod 'Alamofire', '~> 4.5'
   pod 'SnapKit', '~> 4.0.0'
+  pod 'SwiftyJSON'
 end

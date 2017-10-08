@@ -12,17 +12,31 @@
         <!--View Controller-->
         <scene sceneID="cd8-TS-5BP">
             <objects>
-                <viewController id="hPx-iO-akk" sceneMemberID="viewController">
+                <viewController id="hPx-iO-akk" customClass="ViewController" customModule="Calhack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3aQ-Gb-lU6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="75Y-VB-r1O">
+                                <rect key="frame" x="0.0" y="20" width="375" height="609"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.44705882349999998" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="75Y-VB-r1O" firstAttribute="leading" secondItem="K2p-mx-Gpd" secondAttribute="leading" id="4gh-nU-jcE"/>
+                            <constraint firstItem="75Y-VB-r1O" firstAttribute="trailing" secondItem="K2p-mx-Gpd" secondAttribute="trailing" id="A8l-en-O3o"/>
+                            <constraint firstItem="K2p-mx-Gpd" firstAttribute="bottom" secondItem="75Y-VB-r1O" secondAttribute="bottom" constant="38" id="RBm-LO-tkg"/>
+                            <constraint firstItem="75Y-VB-r1O" firstAttribute="top" secondItem="K2p-mx-Gpd" secondAttribute="top" id="Rf6-bz-BW6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="K2p-mx-Gpd"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="75Y-VB-r1O" id="kEr-ce-Sxp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6kc-ue-Ywr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="158" y="123"/>
+            <point key="canvasLocation" x="157.59999999999999" y="122.78860569715144"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9H6-Ya-FfS">
