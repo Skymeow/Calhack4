@@ -22,6 +22,8 @@
 		F9B03AED1F881C47001CE78A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F949BE791F87DF7F00C254F1 /* GoogleService-Info.plist */; };
 		F9B03B101F894AC3001CE78A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B03B0F1F894AC3001CE78A /* ViewController.swift */; };
 		F9B03B121F898A24001CE78A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B03B111F898A24001CE78A /* MapKit.framework */; };
+		F9B03B141F89C1DE001CE78A /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B03B131F89C1DE001CE78A /* ARViewController.swift */; };
+		F9B03B161F89C329001CE78A /* ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B03B151F89C329001CE78A /* ARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		F9B03AEB1F881362001CE78A /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		F9B03B0F1F894AC3001CE78A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F9B03B111F898A24001CE78A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F9B03B131F89C1DE001CE78A /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ARViewController.swift; path = /Users/skyxu/code/sideprojects/Calhack/Calhack/Controllers/ARViewController.swift; sourceTree = "<absolute>"; };
+		F9B03B151F89C329001CE78A /* ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,8 @@
 		F949BE831F87E1AD00C254F1 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F9B03B131F89C1DE001CE78A /* ARViewController.swift */,
+				F9B03B151F89C329001CE78A /* ARView.swift */,
 				F949BE691F87D99600C254F1 /* LoginViewController.swift */,
 				F949BE7A1F87E0D000C254F1 /* CreateUsernameViewController.swift */,
 				F9B03B0F1F894AC3001CE78A /* ViewController.swift */,
@@ -302,7 +308,9 @@
 				F949BE7D1F87E0E900C254F1 /* User.swift in Sources */,
 				F949BE7F1F87E0FD00C254F1 /* UserService.swift in Sources */,
 				F949BE6A1F87D99600C254F1 /* LoginViewController.swift in Sources */,
+				F9B03B141F89C1DE001CE78A /* ARViewController.swift in Sources */,
 				F949BE811F87E16F00C254F1 /* Storyboard+Utility.swift in Sources */,
+				F9B03B161F89C329001CE78A /* ARView.swift in Sources */,
 				F949BE871F87EE8900C254F1 /* Constants.swift in Sources */,
 				F949BE681F87D99600C254F1 /* AppDelegate.swift in Sources */,
 				F9B03B101F894AC3001CE78A /* ViewController.swift in Sources */,
